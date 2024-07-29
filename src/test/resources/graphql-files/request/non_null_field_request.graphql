@@ -1,0 +1,10 @@
+query {
+    searchByVin(vin: ["JTKKU4B41C1023346", "1G1JC1444PZ215071"]){
+        vin
+        year
+        make
+        model
+        trim
+    }
+}
+
