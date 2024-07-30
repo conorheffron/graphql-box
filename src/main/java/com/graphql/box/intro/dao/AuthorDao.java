@@ -13,7 +13,7 @@ public class AuthorDao {
 
     public Author getAuthor(String id) {
         return authors.stream()
-          .filter(author -> id.equals(author.getId()))
+          .filter(author -> id.equalsIgnoreCase(author.getId()))
           .findFirst()
           .orElseThrow(RuntimeException::new);
     }
