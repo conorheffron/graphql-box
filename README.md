@@ -1,5 +1,7 @@
 # graphql-box
 
+[![Java CI with Maven](https://github.com/conorheffron/graphql-box/actions/workflows/maven.yml/badge.svg)](https://github.com/conorheffron/graphql-box/actions/workflows/maven.yml)
+
 ## Technologies:
 JDK corretto-17.0.9, Spring Boot 2, GraphQL, Maven 3
 
